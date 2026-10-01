@@ -1,0 +1,19 @@
+name = "All-Hands Template"
+version = "0.1.0"
+defaultTargets = ["UsingMathlib", "UsingCslib"]
+
+[[require]]
+name = "cslib"
+git = "https://github.com/leanprover/cslib"
+rev = "v4.35.0-rc3"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "v4.35.0-rc3"
+
+[[lean_lib]]
+name = "UsingMathlib"
+
+[[lean_lib]]
+name = "UsingCslib"
